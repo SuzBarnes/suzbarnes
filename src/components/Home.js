@@ -1,10 +1,10 @@
 import React from "react";
-import "../styling/home.css";
+import "../styling/home.scss";
 
 const Home = () => {
     return (
-        <div>
-            <h2>hello I'm Suzannah.</h2>
+        <div className="home">
+            <h2>hello I'm Suzannah</h2>
             <img
                 src={require("../images/Sbarnes.jpg")}
                 alt=""
