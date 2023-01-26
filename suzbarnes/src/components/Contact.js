@@ -18,22 +18,19 @@ const Contact = () => {
         use as a soundboard, the more confident you will feel.
       </p>
 
-      <ul>
-        <li>
-          {" "}
-          <FontAwesomeIcon icon={faEnvelope} className="font-awesome" />
-        </li>
-        <li>
-          <a href="https://linkedin.com/in/suzannah-barnes">
-            <FontAwesomeIcon icon={faLinkedin} className="font-awesome" />
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/suzbarnes">
-            <FontAwesomeIcon icon={faGithub} className="font-awesome" />
-          </a>
-        </li>
-      </ul>
+      <FontAwesomeIcon
+        icon={faEnvelope}
+        className="font-awesome"
+        onClick={() => (window.location = "mailto:smbarnesuk@gmail.com")}
+      />
+
+      <a href="https://linkedin.com/in/suzannah-barnes">
+        <FontAwesomeIcon icon={faLinkedin} className="font-awesome" />
+      </a>
+
+      <a href="https://github.com/suzbarnes">
+        <FontAwesomeIcon icon={faGithub} className="font-awesome" />
+      </a>
     </div>
   );
 };

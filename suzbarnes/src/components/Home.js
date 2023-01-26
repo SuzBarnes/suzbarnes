@@ -4,8 +4,10 @@ import "../styling/home.scss";
 const Home = () => {
   return (
     <div className="home">
-      <h2>hello I'm Suzannah</h2>
-      <img src={require("../images/Sbarnes.jpg")} alt="" />
+      <h2>hello I'm Suzannah :)</h2>
+      <div className="home-image">
+        <img src={require("../images/Sbarnes.jpg")} alt="" />
+      </div>
       <p>
         I am a dentist turned developer and after a 6 month part time bootcamp
         with <a href="https://www.commandshift.co/">Command Shift</a> (MCR
