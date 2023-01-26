@@ -21,8 +21,19 @@ li {
 
 a,
 a:visited,
-a:hover,
 a:active {
   color: rgb(211, 135, 27);
   text-decoration: none;
+}
+
+a:hover {
+  color: silver;
+}
+
+.font-awesome {
+  color: rgb(211, 135, 27);
+}
+
+.font-awesome:hover {
+  color: silver;
 }

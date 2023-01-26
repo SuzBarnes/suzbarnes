@@ -4,7 +4,7 @@ import "../styling/blogcard.scss";
 const BlogCard1 = () => {
   return (
     <div className="blogcard">
-      <div className="date"> 28/01/23</div>
+      <div className="date"> 26/01/23</div>
       <h2>From pulling teeth, to writing script(s)</h2>
       <p>
         It's official, I am leaving the world of dentistry for software
